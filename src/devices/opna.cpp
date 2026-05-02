@@ -650,7 +650,8 @@ void OPNABase::SetADPCMBReg(uint addr, uint data)
 	case 0x03:		// Start Address H
 		adpcmreg[addr - 0x02 + 0] = data;
 		startaddr = (adpcmreg[1]*256+adpcmreg[0]) << 6;
-//		memaddr = startaddr;
+		// bubio 復活。これがないとADPCMの音がおかしくなる。スキームで顕著。
+		memaddr = startaddr;
 //		LOG1("  startaddr %.6x", startaddr);
 		break;
 
