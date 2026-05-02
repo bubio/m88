@@ -23,3 +23,5 @@ Release/
 
 .vs/
 UpgradeLog.htm
+
+!writetag.exe
