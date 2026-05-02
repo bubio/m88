@@ -3,6 +3,9 @@
 // Used by cdif.rc
 //
 #define IDI_CDIF                        101
+#ifndef IDC_STATIC
+#define IDC_STATIC                      (-1)
+#endif
 #define IDB_CDIF                        102
 #define IDD_CONFIG                      106
 

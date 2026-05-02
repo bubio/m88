@@ -3,6 +3,9 @@
 // Used by M88.rc
 //
 #define IDM_CONFIG                      0
+#ifndef IDC_STATIC
+#define IDC_STATIC                      (-1)
+#endif
 #define IDM_MEM_F_1                     8
 #define IDI_ICON_M88                    101
 #define IDD_PROPPAGE_SMALL              102

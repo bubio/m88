@@ -3,6 +3,9 @@
 // Used by sample2.rc
 //
 #define IDB_BITMAP1                     102
+#ifndef IDC_STATIC
+#define IDC_STATIC                      (-1)
+#endif
 #define IDD_CONFIG                      106
 
 // Next default values for new objects

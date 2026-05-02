@@ -94,9 +94,13 @@ INT_PTR CALLBACK M88About::DlgProcGate
 //	about 用のテキスト
 //
 const char M88About::abouttext[] =
-	"build date:"__DATE__" (%.8x)\r\n"
+	"build date: " __DATE__ " (%.8x)\r\n"
 	"\r\n"
 	"要望・バグ報告などは以下のページにどうぞ\r\n"
+	"\r\n"
+	"https://github.com/bubio/m88\r\n"
+	"\r\n"
+	"rururutanさんのコードを元にしています．\r\n"
 	"\r\n"
 	"https://github.com/rururutan/m88\r\n"
 	"\r\n"
