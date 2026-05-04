@@ -1,9 +1,28 @@
 
 # M88 - PC8801 Series Emulator
 
+<p align="center">
+  <img src="docs/AppIcon.png" alt="M88" width="128" height="128">
+</p>
+
+<p align="center">
+  <a href="https://github.com/bubio/m88/releases/latest">
+    <img src="https://img.shields.io/github/v/release/bubio/m88" alt="Latest Release">
+  </a>
+  <a href="https://github.com/bubio/m88/releases/latest">
+    <img src="https://img.shields.io/github/downloads/bubio/m88/total.svg" alt="Downloads">
+  </a>
+</p>
+
+
+
 ## 初めに
 
 cisc氏作のPC-8801エミュレータ[M88](http://retropc.net/cisc/m88/)をrururutan氏が改造した私家版をVisual Studio 2022でビルドできるようにしたものです。
+
+<p align="center">
+  <img src="docs/Screenshot.png" alt="M88 App ScreenShot">
+</p>
 
 
 ## 動作環境
